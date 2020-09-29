@@ -13,3 +13,6 @@ services:
     command: npm run start:dev
     env_file:
         - .env
+
+  sut:
+    command: run_tests.sh
